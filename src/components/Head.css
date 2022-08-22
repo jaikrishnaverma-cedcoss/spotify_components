@@ -269,3 +269,35 @@ line-height: 15px;
 .box6{
 justify-content: center;
 }
+.col{
+    width: 16.66%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.circle{
+    border-radius: 50%;
+    background-color: rgb(58, 58, 58);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.circle i{
+    font-size: 25px;
+}
+.col p:nth-child(1){
+font-size: 10px;
+font-weight: 600;
+color: rgb(87, 87, 87) !important;
+}
+.col p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.cv .flex p{
+    font-size: 10px;
+    color: gray !important;
+}

@@ -7,10 +7,8 @@ class Component2 extends Component {
             <div className='box box3' style={{backgroundColor:"white"}}>
             <h1>The Power of Premium</h1>
               <div className='mid third'>
-
-                    
-                  <div className="card">
-                  <div><i class="fa fa-envira" aria-hidden="true"></i></div>
+              <div className="card">
+                  <div><i class="fa fa-instagram" aria-hidden="true"></i></div>
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit?</p>
                     </div>
