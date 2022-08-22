@@ -35,9 +35,6 @@ class Component1 extends Component {
                 <p className='p11'><a href="">Terms and conditions Apply.</a></p>
                 </div>
             </div>
-
-            
-          
             </>
         );
     }
