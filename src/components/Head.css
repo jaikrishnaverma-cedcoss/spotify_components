@@ -135,6 +135,9 @@ color: black;
     background-color: black;
   
 }
+.box4 h1{
+    color: white !important;
+}
 .box4 h4,.box4 p{
     color: white !important;
 }
@@ -143,4 +146,103 @@ color: black;
 }
 .box4 img{
     height: 150px;
+}
+.box5{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+.box5 h1,.box5 h2,.box5 h3,.box5 p,.box5 h4{
+    color: black !important;
+}
+.box5 .card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    width: 24%;
+    height: 400px;
+}
+.fourthrow{
+    width: 65%;
+}
+.fourthrow .card{
+    display: block;
+    padding: 10px !important;
+}
+.span2 i{
+    font-size: 15px !important;
+}
+
+.fourthrow .card button{
+    background-color: white;
+    color: rgb(102, 0, 255);
+    border: 1px solid rgb(102, 0, 255);
+    padding: 4px;
+    font-weight: 800;
+    font-size: 10px;
+    border-radius: 2px;
+}
+.fourthrow h4{
+    margin-top: 6px;
+    text-align: left;
+}
+.fourthrow p{
+    text-align: left;
+
+}
+.xy{
+    background-color: rgb(102, 0, 255) !important;
+    color: white !important;
+    border-radius: 2px;
+    font-weight: 900 !important;
+    margin-bottom: 5px;
+}
+.box5 .card{
+    width: 21%;
+    border-radius: 10px;
+    height: auto;
+}
+.box5 p{
+   margin: 0px;
+}
+hr{
+    margin-bottom: 10px;
+}
+.plans
+{
+    background-color: black !important;
+    width: 100%;
+    color: white !important;
+    border: 2px solid black !important;
+    border-radius: 35px !important;
+    padding: 20px;
+    height: 30px;
+}
+.tc{
+    margin:10px 0px !important;
+font-size: 11px !important;
+line-height: 15px;
+}
+.tc a{
+    font-size: 11px !important;
+    color:black !important;
+}
+.span1 p{
+    margin: 8px 0px;
+}
+.box5 h4,.box5 button{
+    margin: 0px;
+}
+.box5 .flex button
+{
+   
+    border: 2px solid black;
+    border-color: black;
+    color: black;
+    margin-left: 5px;
+}
+.box5 .flex{
+    align-items: center;
+    border: 3px solid rgb(210, 210, 210);
+    padding:10px 15px;
+    border-radius: 10px;
 }
