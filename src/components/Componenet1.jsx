@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Head.css'
-class Head extends Component {
+class Component1 extends Component {
     state = {  } 
    
   nav = {color: "white",display:"flex",justifyContent:"space-around",alignItem:"center",fontFamily: "Sans-Serif"
@@ -24,7 +24,7 @@ class Head extends Component {
                 </div>
             </div>
 
-            <div className='box' style={{height:"160px"}}>
+            <div className='box' style={{height:"320px"}}>
             <div className='mid second'>
                 <h2>Introducing Premium Mini</h2>
                 <p>&#8377; 7 for 1 day.</p>
@@ -35,9 +35,12 @@ class Head extends Component {
                 <p className='p11'><a href="">Terms and conditions Apply.</a></p>
                 </div>
             </div>
+
+            
+          
             </>
         );
     }
 }
 
-export default Head;
+export default Component1;

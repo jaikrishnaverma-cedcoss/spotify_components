@@ -69,7 +69,7 @@ p{
     color: white;
 }
 .second{
-    margin-top: 140px;
+    margin-top: 55px;
     margin-bottom: 50px;
 }
 .flex button:hover{
@@ -80,4 +80,67 @@ p{
 .xx button:hover{
 background-color: white;
 color: black;
+}
+.box3 h1,.box3 p{
+    color: black !important;
+    text-align: center;
+    margin: 5px 0px;
+   
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.card h4{
+    color:black
+}
+.card div{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(224, 221, 221);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.card i{
+    color: black;
+    font-size: 72px;
+}
+.box3{
+    flex-direction: column;
+    padding-top: 50px;
+}
+.box3 h4,.box3 p{
+    margin:5px 0px;
+    text-align: center;
+}
+.box3 p{
+    font-size: 13px;
+}
+.box4{
+    background-color: black;
+  
+}
+.box4 h4,.box4 p{
+    color: white !important;
+}
+.box4 h4{
+    margin-top: 20px;
+}
+.box4 img{
+    height: 150px;
 }
